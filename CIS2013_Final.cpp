@@ -51,10 +51,9 @@ int main()
 	}
 	else if (menu == 5)
 	{
-		cout << color << endl;
-		cout << year << endl;
-		cout << make << endl;
-		cout << model << endl;
+		motorcycle a(color, year, make model);
+		cout << a.getMotorCycleInfo << endl;
+
 	}
 	return 0;
 

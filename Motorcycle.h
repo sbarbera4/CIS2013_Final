@@ -17,6 +17,7 @@ public:
 
 	motorcycle(string c, int y, string m, string mo);
 
+
 	void set_color(string);
 	string get_color;
 
